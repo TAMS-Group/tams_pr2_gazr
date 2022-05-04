@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tams_pr2_gazr</name>
+  <version>0.0.0</version>
+  <description>The tams_pr2_gazr package</description>
+
+  <maintainer email="me@v4hn.de">v4hn</maintainer>
+  <license>BSD</license>
+
+  <depend>gazr</depend>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
