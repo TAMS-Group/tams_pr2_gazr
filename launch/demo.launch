@@ -6,11 +6,11 @@
     <arg name="machine" value="pr2-head" />
     <arg name="pkg" value="gazr" />
     <arg name="launch" value="gazr.launch" />
-    <arg name="args" value="quality:=$(arg quality)" />
+    <arg name="args" value="ns:=/ rgb:=kinect2/$(arg quality)/image_color_rect camera_info:=kinect2/$(arg quality)/camera_info" />
   </include>
 
   <include file="$(find tams_pr2_look)/launch/look.launch">
     <arg name="mode" value="gazr" />
-    <arg name="velocity" value="0.2" />
+    <arg name="velocity" value="0.3" />
   </include>
 </launch>
