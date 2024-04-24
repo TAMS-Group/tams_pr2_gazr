@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find gazr)/launch/gazr.launch">
+    <arg name="rgb" value="azure_kinect/rgb/image_color" />
+    <arg name="camera_info" value="azure_kinect/rgb/camera_info" />
+    <arg name="ns" value="/" />
+  </include>
+</launch>
